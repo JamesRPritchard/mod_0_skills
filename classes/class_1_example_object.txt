@@ -1,0 +1,13 @@
+class instance == ravioli
+
+Instance Values:
+isWarm = True
+menuItem = "ravioli"
+menuItemCost = 14.99
+numberItemsOrdered = 1
+
+Method results:
+timeForABox == isWarm = False
+familyDiscount == menuItemCost = 10.00
+oneMoreOfThose == numberItemsOrdered = 2
+printReceipt == print "ravioli"
