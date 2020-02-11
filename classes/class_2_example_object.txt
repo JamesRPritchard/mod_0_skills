@@ -1,13 +1,13 @@
 class instance == ravioli
 
 Instance Values:
-isHeHim = True
+isHeHim = true
 staffNames = ["Mark", "Mary", "John"]
 hourlyWage = 15.50
 numberOfStaff = 3
 
 Method results:
-myNameIsMary == isHeHim = False
+myNameIsMary == isHeHim = false
 newStaffMember == staffNames = ["Mark", "Mary", "John", "Jen"]
 newStaffTotal == numberOfStaff = 4
 youGetARaise == hourlyWage = 17.05
