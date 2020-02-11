@@ -1,0 +1,13 @@
+class == food
+
+Attributes:
+isWarm (boolean)
+menuItem (string)
+menuItemCost (float)
+numberItemsOrdered (integer)
+
+Methods:
+timeForABox (isWarm attribute changes from True to False)
+familyDiscount (lowers the menuItemCost value)
+oneMoreOfThose (adds 1 to the numberItemsOrdered attribute)
+printReceipt (displays the names of the menuItem values that were ordered)
