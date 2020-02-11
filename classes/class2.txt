@@ -1,0 +1,13 @@
+class == restaurant staff
+
+Attributes:
+isHeHim (boolean)
+staffNames (array)
+hourlyWage (float)
+numberOfStaff (integer)
+
+Methods:
+myNameIsMary (changes isHeHim value from True to False)
+newStaffMember (adds a new string with the name of the new staff to staffNames)
+newStaffTotal (adds 1 to numberOfStaff after a new hire)
+youGetARaise (increases the value of hourlyWage for ten percent)
