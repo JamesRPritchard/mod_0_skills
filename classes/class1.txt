@@ -7,7 +7,7 @@ menuItemCost (float)
 numberItemsOrdered (integer)
 
 Methods:
-timeForABox (isWarm attribute changes from True to False)
-familyDiscount (lowers the menuItemCost value)
-oneMoreOfThose (adds 1 to the numberItemsOrdered attribute)
+getABox (isWarm attribute changes from true to false)
+giveFamilyDiscount (subtracts 5.00 from the menuItemCost value)
+orderOneMore (adds 1 to the numberItemsOrdered attribute)
 printReceipt (displays the names of the menuItem values that were ordered)

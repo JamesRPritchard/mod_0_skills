@@ -3,11 +3,11 @@ class instance == ravioli
 Instance Values:
 isWarm = true
 menuItem = "ravioli"
-menuItemCost = 14.99
+menuItemCost = 15.00
 numberItemsOrdered = 1
 
 Method results:
-timeForABox == isWarm = false
-familyDiscount == menuItemCost = 10.00
-oneMoreOfThose == numberItemsOrdered = 2
+getABox == isWarm = false
+giveFamilyDiscount == menuItemCost = 10.00
+orderOneMore == numberItemsOrdered = 2
 printReceipt == print "ravioli"

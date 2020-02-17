@@ -1,13 +1,13 @@
-class instance == ravioli
+class instance == an occupied table with four seats
 
 Instance Values:
-isHeHim = true
-staffNames = ["Mark", "Mary", "John"]
-hourlyWage = 15.50
-numberOfStaff = 3
+tableType = "table"
+seatingCapacity = 4
+tableIsClean = false
+tableIsOccupied = true
 
 Method results:
-myNameIsMary == isHeHim = false
-newStaffMember == staffNames = ["Mark", "Mary", "John", "Jen"]
-newStaffTotal == numberOfStaff = 4
-youGetARaise == hourlyWage = 17.05
+changeTableType == tableType = "booth"
+addAChair == seatingCapacity = 5
+guestsLeave == tableIsOccupied = false
+cleanTable == tableIsClean = true

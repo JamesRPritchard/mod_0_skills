@@ -1,13 +1,13 @@
-class == restaurant staff
+class == table
 
 Attributes:
-isHeHim (boolean)
-staffNames (array)
-hourlyWage (float)
-numberOfStaff (integer)
+tableType (string)
+seatingCapacity (integer)
+tableIsClean (boolean)
+tableIsOccupied (boolean)
 
 Methods:
-myNameIsMary (changes isHeHim value from True to False)
-newStaffMember (adds a new string with the name of the new staff to staffNames)
-newStaffTotal (adds 1 to numberOfStaff after a new hire)
-youGetARaise (increases the value of hourlyWage for ten percent)
+changeTableType (changes the value of tableType to "booth" if the instance is a "table"; changes the value to "table" if the instance is a "booth")
+addAChair (adds 1 to the seatingCapacity attribute)
+guestsLeave (if tableIsOccupied is true, changes it to false)
+cleanTable (if tableIsClean is false, changes it to true)
